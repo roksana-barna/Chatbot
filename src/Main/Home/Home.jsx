@@ -65,6 +65,31 @@ const Home = () => {
                         message: 'Thanks for sharing. If you have more questions or need assistance, feel free to ask!',
                         end: true,
                     },
+                    {
+                        id: '12',
+                        message: 'SciAstra values innovation. Are you interested in learning about our latest innovations?',
+                        trigger: '13',
+                    },
+                    {
+                        id: '13',
+                        user: true,
+                        trigger: '14',
+                    },
+                    {
+                        id: '14',
+                        message: 'Fantastic! We are constantly pushing the boundaries. What specific area of innovation are you curious about?',
+                        trigger: '15',
+                    },
+                    {
+                        id: '15',
+                        user: true,
+                        trigger: '16',
+                    },
+                    {
+                        id: '16',
+                        message: 'That\'s intriguing! Feel free to ask more or explore other aspects of SciAstra.',
+                        end: true,
+                    },
                 ]}
             />
         </div>
